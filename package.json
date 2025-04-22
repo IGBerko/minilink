@@ -1,0 +1,27 @@
+{
+  "name": "minilink",
+  "displayName": "MiniLink",
+  "description": "MiniLink language support",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [{
+      "id": "minilink",
+      "aliases": ["MiniLink", "ml"],
+      "extensions": [".jst",".ml"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "minilink",
+      "scopeName": "source.minilink",
+      "path": "./syntaxes/minilink.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "minilink",
+      "path": "./snippets/minilink.code-snippets"
+    }]
+  }
+}

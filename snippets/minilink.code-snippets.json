@@ -1,0 +1,16 @@
+{
+    "Function": {
+      "prefix": "fn",
+      "body": [
+        "fn ${1:name}(${2:params}) {",
+        "\t${3}",
+        "}"
+      ],
+      "description": "Создать функцию"
+    },
+    "Print": {
+      "prefix": "print",
+      "body": "print(${1:value})",
+      "description": "Вывод в консоль"
+    }
+  }
